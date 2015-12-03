@@ -14,17 +14,17 @@ android {
 
     signingConfigs {
         debug {
-            storeFile file(debugKeystoreFile)
-            storePassword debugKeystorePassword
-            keyAlias debugKeyAlias
-            keyPassword debugKeyPassword
+            storeFile file(debugMKeystoreFile)
+            storePassword debugMKeystorePassword
+            keyAlias debugMKeyAlias
+            keyPassword debugMKeyPassword
         }
 
         release {
-            storeFile file(releaseKeystoreFile)
-            storePassword releaseKeystorePassword
-            keyAlias releaseKeyAlias
-            keyPassword releaseKeyPassword
+            storeFile file(releaseMKeystoreFile)
+            storePassword releaseMKeystorePassword
+            keyAlias releaseMKeyAlias
+            keyPassword releaseMKeyPassword
         }
     }
 
